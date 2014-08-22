@@ -1,0 +1,26 @@
+body{
+	font-family: Georgia, Arial, serif;
+	color: #fff;
+	background: #000;
+}
+
+a{
+	color: #fff;
+}
+
+input{
+	display: inline-block;
+
+	box-sizing: border-box;
+	margin: 0;
+	padding: .5em .6em;
+
+	font-size: 100%;
+	font-family: "proxima-nova", sans-serif;
+	line-height: normal;
+
+	vertical-align: baseline;
+
+	border: 1px solid #CCC;
+	border-radius: 4px;
+}

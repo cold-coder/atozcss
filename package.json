@@ -1,0 +1,28 @@
+{
+  "name": "atozcss",
+  "version": "0.0.0",
+  "description": "code snippt from atozcss.com",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.7",
+    "gulp-livereload": "^2.1.0",
+    "gulp-webserver": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cold-coder/atozcss.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "yaocheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cold-coder/atozcss/issues"
+  },
+  "homepage": "https://github.com/cold-coder/atozcss"
+}

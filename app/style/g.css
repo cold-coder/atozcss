@@ -1,0 +1,48 @@
+@import "./page-style.css";
+
+input[type="checkbox"] {
+	display: none;
+}
+
+/*general sibling selector*/
+input[type="checkbox"]:checked ~ .content-text {
+	max-height: 1000px;
+}
+
+input[type="checkbox"] ~ .content-text {
+	max-height: 0;
+	overflow: hidden;
+}
+
+.content-text {
+	transition: all 1s ease-in-out;
+}
+
+div {
+	background-color: #444;
+	padding: 5px;
+}
+
+div section {
+	background-color: #777;
+	padding: 5px;
+}
+/*decendent selector*/
+div p {
+	/*color: red;*/
+}
+
+/*grandchild selector*/
+div * p {
+	/*color: red;*/
+}
+
+/*child selector*/
+div > p {
+	/*color: red;*/
+}
+
+/*adjacent selector*/
+div + p {
+	color: red;
+}

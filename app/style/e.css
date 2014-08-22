@@ -1,0 +1,12 @@
+@import "./page-style.css";
+
+input:enabled{
+	background-color: #555;
+	color:#66d9ef;
+}
+
+input:disabled{
+	background-color: #fff;
+	color: #ccc;
+}
+

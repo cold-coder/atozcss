@@ -1,0 +1,12 @@
+@import "./page-style.css";
+
+.box{
+	color: goldenrod;
+	padding: 50px;
+	border: 10px solid;
+	box-shadow: 0 0 100px;
+}
+
+.box p{
+	color: #EEE;
+}

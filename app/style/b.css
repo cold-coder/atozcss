@@ -1,0 +1,21 @@
+@import "./page-style.css";
+
+.border-box{
+	-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	background: #9FC4E7;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	padding: 20px;
+	border: 10px solid #FEEDBB;
+}
+
+.content-box{
+	background: #9FC4E7;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	padding: 20px;
+	border: 10px solid #FEEDBB;
+}

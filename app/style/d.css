@@ -1,0 +1,22 @@
+@import "./page-style.css";
+
+.box{
+	background-color: #222;
+	padding: 10px;
+	border: 1px solid #CC3F85;
+}
+
+li{
+	display: inline-block;
+	padding: 10px;
+	background-color: #CC3F85;
+}
+
+.table{
+	display: table;
+}
+
+.cell{
+	display: table-cell;
+	vertical-align: middle;
+}

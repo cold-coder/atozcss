@@ -1,0 +1,31 @@
+@import "./page-style.css";
+
+.box{
+	width: auto;
+	position: relative;
+	padding: 50px;
+	border: 1px solid #CC3F85;
+}
+.box-title{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0;
+	font-size: 1.75em;
+	color:#000;
+	background-color: #CC3F85;
+	line-height: 1.5em;
+	text-align: center;
+}
+
+@media screen and (max-width: 600px){
+	.box-title{
+		top: auto;
+		left:auto;
+		bottom:0;
+		right: 0;
+		background-color: #66d93f;
+	}
+}
