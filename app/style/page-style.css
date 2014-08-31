@@ -24,3 +24,27 @@ input{
 	border: 1px solid #CCC;
 	border-radius: 4px;
 }
+
+.menu-home {
+	background-color: #98E22D;
+}
+
+.menu-episodes,
+.menu-episodes ul {
+	background-color: #AE81FF;
+}
+
+.menu-about {
+	background-color: #66D9EF;
+}
+
+.menu-subscribe,
+.menu-subscribe ul {
+	background-color: #E6DB74;
+}
+
+.menu a:hover{
+	background-color: #CC3F85;
+	color: #FFF;
+}
+
