@@ -1,0 +1,24 @@
+@import "./page-style.css";
+
+.grid-container {
+	padding: 0;
+	border-left: 1px solid #666;
+	border-right: 1px solid #666;
+	font-size: 0;
+	text-align: justify;
+}
+
+.grid-container:after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+.grid-item {
+	display: inline-block;
+	width: 33.333%;
+	background: #333;
+	padding:30px;
+	margin: 10px 0;
+	font-size: 1rem;
+}
